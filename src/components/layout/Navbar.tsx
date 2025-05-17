@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <NavLink to="/" className="flex items-center gap-2 font-bold text-xl">
-              <span className="flex items-center justify-center w-8 h-8 bg-orange-500 rounded-full">
+              <span className="<img src='https://sdmntpreastus2.oaiusercontent.com/files/00000000-88c0-61f6-bc96-73bd57d3ee2d/raw?se=2025-05-17T16%3A39%3A48Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=71e8fa5c-90a9-4c17-827b-14c3005164d6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-17T12%3A33%3A20Z&ske=2025-05-18T12%3A33%3A20Z&sks=b&skv=2024-08-04&sig=iqOLZ7xGzcffLgII5/RWWgAmlQkVoNO6CcpfRcPJQME%3D'/>flex items-center justify-center w-8 h-8 bg-orange-500 rounded-full">
                 <Users size={18} />
               </span>
               Village To Venture
