@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">Shakti</h3>
+            <h3 className="text-lg font-semibold mb-4">Village To Venture</h3>
             <p className="text-purple-200 mb-4">
               Empowering rural women in India with access to resources, information, and community support.
             </p>
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle size={18} />
-                <span>support@shakti.org</span>
+                <span>support@villagetoventure.org</span>
               </li>
             </ul>
             <div className="mt-4">
@@ -84,7 +84,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-purple-800 mt-8 pt-6 text-center text-purple-300 text-sm">
-          <p>&copy; {new Date().getFullYear()} Shakti. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Village To Venture. All rights reserved.</p>
         </div>
       </div>
     </footer>

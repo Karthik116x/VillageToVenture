@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
               <span className="flex items-center justify-center w-8 h-8 bg-orange-500 rounded-full">
                 <Users size={18} />
               </span>
-              Shakti
+              Village To Venture
             </NavLink>
           </div>
           
