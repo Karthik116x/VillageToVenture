@@ -26,18 +26,16 @@ const HomePage: React.FC = () => {
               <Button 
                 variant="secondary" 
                 size="lg" 
-                icon={<BookOpen />}
-                as={Link} 
-                to="/resources"
+                icon={<BookOpen size={20} />}
+                onClick={() => window.location.href = '/resources'}
               >
                 {t('home.button.explore')}
               </Button>
               <Button 
                 variant="tertiary" 
                 size="lg" 
-                icon={<Users />}
-                as={Link} 
-                to="/community"
+                icon={<Users size={20} />}
+                onClick={() => window.location.href = '/community'}
               >
                 {t('home.button.join')}
               </Button>
@@ -113,10 +111,9 @@ const HomePage: React.FC = () => {
           <Button 
             variant="primary" 
             size="lg" 
-            icon={<ArrowRight />} 
+            icon={<ArrowRight size={20} />} 
             iconPosition="right"
-            as={Link}
-            to="/resources"
+            onClick={() => window.location.href = '/resources'}
           >
             Explore Resources
           </Button>
