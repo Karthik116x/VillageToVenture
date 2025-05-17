@@ -18,9 +18,9 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <NavLink to="/" className="flex items-center gap-2 font-bold text-xl">
-              <span className="flex items-center justify-center w-8 h-8 bg-orange-500 rounded-full">
+              <div className="flex items-center justify-center w-8 h-8 bg-orange-500 rounded-full">
                 <Users size={18} />
-              </span>
+              </div>
               Village To Venture
             </NavLink>
           </div>
