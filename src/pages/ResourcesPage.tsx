@@ -43,7 +43,7 @@ const resourcesData = [
     title: 'MGNREGA Employment Scheme',
     category: 'govt',
     description: 'Rural employment guarantee scheme providing at least 100 days of wage employment',
-    image: 'https://images.pexels.com/photos/2381994/pexels-photo-2381994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://www.google.com/imgres?q=mgnrega&imgurl=https%3A%2F%2Fpoliticalsciencesolution.com%2Fwp-content%2Fuploads%2F2025%2F03%2FMGNREGA-Records-82-Surge-in-Employment-Generation.webp&imgrefurl=https%3A%2F%2Fpoliticalsciencesolution.com%2Fmgnrega-records-82-surge-in-employment-generation-a-decade-of-rural-empowerment-and-progress%2F&docid=3U8tI54vuFjXGM&tbnid=4Tj-0KGZAqK90M&vet=12ahUKEwidqsvE-amNAxVOR2wGHWdEIwgQM3oECG0QAA..i&w=975&h=491&hcb=2&ved=2ahUKEwidqsvE-amNAxVOR2wGHWdEIwgQM3oECG0QAA',
     isOfflineAvailable: true,
   },
   {
