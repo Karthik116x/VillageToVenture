@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
                 {t('home.button.explore')}
               </Button>
               <Button 
-                variant="secondary"
+                variant="tertiary"
                 size="lg" 
                 icon={<Users size={20} />}
                 onClick={() => window.location.href = '/community'}
