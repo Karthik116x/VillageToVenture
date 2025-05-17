@@ -22,18 +22,8 @@ const HomePage: React.FC = () => {
           <div className="md:w-2/3">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('home.title')}</h1>
             <p className="text-xl mb-8">{t('home.subtitle')}</p>
-            <div className="flex flex-col sm:flex-row gap-4">
-                {t('home.button.join')}
-            </div>
           </div>
         </div>
-        <button 
-          onClick={toggleAudio}
-          className="absolute bottom-4 right-4 p-2 bg-white bg-opacity-20 rounded-full hover:bg-opacity-30"
-          aria-label={isAudioEnabled ? "Disable audio narration" : "Enable audio narration"}
-        >
-          {isAudioEnabled ? <Volume2 size={24} /> : <VolumeX size={24} />}
-        </button>
       </section>
 
       {/* Features Section */}
