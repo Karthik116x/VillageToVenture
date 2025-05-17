@@ -23,20 +23,6 @@ const HomePage: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('home.title')}</h1>
             <p className="text-xl mb-8">{t('home.subtitle')}</p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                variant="secondary" 
-                size="lg" 
-                icon={<BookOpen size={20} />}
-                onClick={() => window.location.href = '/resources'}
-              >
-                {t('home.button.explore')}
-              </Button>
-              <Button 
-                variant="tertiary"
-                size="lg" 
-                icon={<Users size={20} />}
-                onClick={() => window.location.href = '/community'}
-              >
                 {t('home.button.join')}
               </Button>
             </div>
